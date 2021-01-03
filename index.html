@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--------------------------------header----------------------------------------->
+    <header class="header">
+        <div class="logo">
+            <a href="">
+                <i class="fab fa-airbnb"></i>
+            </a>
+            <span class="logo-text">airbnb</span>
+        </div>
+        <div class="top-search-text">
+            <span>Places to stay</span>
+            <span>Experiences</span>
+            <span>Online Experiences</span>
+            <div class="top-search">
+                <div class="top-search-element-box">
+                    <div class="top-search-element">
+                        <p class="top-search-main-text">Location</p>
+                        <p class="top-search-sub-text">Where are you going?</p>
+                    </div>
+                </div>
+                <div class="top-search-element-box">
+                    <div class="top-search-element">
+                        <p class="top-search-main-text">Check in</p>
+                        <p class="top-search-sub-text">Add dates</p>
+                    </div>
+                </div>
+
+                <div class="top-search-element-box">
+                    <div class="top-search-element">
+                        <p class="top-search-main-text">Check out</p>
+                        <p class="top-search-sub-text">Add dates</p>
+                    </div>
+                </div>
+                <div class="top-search-element-box">
+                    <div class="top-search-element">
+                        <p class="top-search-main-text">Guests</p>
+                        <p class="top-search-sub-text">Add guests</p>
+                    </div>
+                    <div class="top-serach-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <span>Start your search</span>
+            <div class="serach-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="settings">
+            <span>Become a host</span>
+            <div class="globe-img">
+                <img id="globe-svg" class="svg-white" src="./icons/globe.svg">
+            </div>
+            <div class="profile">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!----------------------------------------------------------------------------------->
+    <section class="hero">
+        <div class="hero-text-container">
+            <span class="hero-text">Go Near</span>
+            <button class="hero-explore">
+                Explore nearby stays
+            </button>
+        </div>
+    </section>
+
+    <!---------------------------------------------cities----------------------------------------->
+    <section class="cities container">
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-1.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Manchester</h4>
+                <p class="city-drive">15-minute drive</p>
+            </div>
+        </div>
+
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-2.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Liverpool</h4>
+                <p class="city-drive">1-hour drive</p>
+            </div>
+        </div>
+
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-3.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Sheffield</h4>
+                <p class="city-drive">1.5-hour drive</p>
+            </div>
+        </div>
+
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-4.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Aberystwyth</h4>
+                <p class="city-drive">3.5-hour drive</p>
+            </div>
+        </div>
+
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-5.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Oban</h4>
+                <p class="city-drive">6.5-hour drive</p>
+            </div>
+        </div>
+
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-6.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Buxton</h4>
+                <p class="city-drive">1-hour drive</p>
+            </div>
+        </div>
+
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-7.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Bath</h4>
+                <p class="city-drive">4-hour drive</p>
+            </div>
+        </div>
+
+        <div class="city">
+            <div class="city-img">
+                <img src="./images/city-8.webp" alt="">
+            </div>
+            <div class="city-text">
+                <h4 class="city-name">Whitstable</h4>
+                <p class="city-drive">5-hour drive</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------------------------------places----------------------------------------------->
+    <section class="places container">
+        <h2 class="places-header">Live anywhere</h2>
+        <div class="places-grid">
+            <div class="place">
+                <div class="place-img"> <img src="./images/place-1.webp" alt=""></div>
+                <h4 class="places-text"> Entire homes</h4>
+            </div>
+            <div class="place">
+                <div class="place-img"> <img src="./images/place-2.webp" alt=""></div>
+                <h4 class="places-text"> Entire homes</h4>
+            </div>
+            <div class="place">
+                <div class="place-img"> <img src="./images/place-3.webp" alt=""></div>
+                <h4 class="places-text"> Entire homes</h4>
+            </div>
+            <div class="place">
+                <div class="place-img"> <img src="./images/place-4.webp" alt=""></div>
+                <h4 class="places-text"> Entire homes</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------Experiences----------------------------------------------------->
+    <section class="experiences">
+
+        <div class="experiences-header">
+            <div class="experiences-text">
+                <h2 class="experiences-heading">Online Experiences for the festive season</h2>
+                <P class="experiences-sub-heading">Interactive activities we can do together, led by one-of-a-kind
+                    hosts.
+                </P>
+            </div>
+            <button class="experiences-explore-button">Explore all</button>
+        </div>
+
+
+        <div class="experiences-container">
+
+            <div class="experience">
+                <div class="experience-img">
+                    <div class="experience-text-container">
+                        <h4 class="experience-text">Join a Christmas party with drag queens</h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="experience">
+                <div class="experience-img">
+                    <div class="experience-text-container">
+                        <h4 class="experience-text">Make Mexican street tacos with a chef</h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="experience">
+                <div class="experience-img">
+                    <div class="experience-text-container">
+                        <h4 class="experience-text">Enjoy a concert with jazz musicians</h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="experience">
+                <div class="experience-img">
+                    <div class="experience-text-container">
+                        <h4 class="experience-text">Learn magic tricks with a real magician</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-------------------------------------------Hosts--------------------------------------->
+    <section class="hosts container">
+        <h2 class="hosts-header">Join millions of hosts on Airbnb</h2>
+        <div class="hosts-container">
+            <div class="host">
+                <div class="host-image"><img src="./images/host-1.webp" alt=""></div>
+                <h4 class="host-text">Host your home</h4>
+            </div>
+
+            <div class="host">
+                <div class="host-image"><img src="./images/host-2.webp" alt=""></div>
+                <h4 class="host-text">Host your home</h4>
+            </div>
+
+            <div class="host">
+                <div class="host-image"><img src="./images/host-3.webp" alt=""></div>
+                <h4 class="host-text">Host your home</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------footer----------------------------------------------->
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="about">
+                <ul class="item-list">
+                    <li class="item-link"><a href="">ABOUT</a></li>
+                    <li class="item-link"><a href="">How Airbnb works</a></li>
+                    <li class="item-link"><a href="">Newsroom</a></li>
+                    <li class="item-link"><a href="">Investors</a></li>
+                    <li class="item-link"><a href="">Airbnb Plus</a></li>
+                    <li class="item-link"><a href="">Airbnb Luxe</a></li>
+                    <li class="item-link"><a href="">HotelTonight</a></li>
+                    <li class="item-link"><a href="">Olympics</a></li>
+                    <li class="item-link"><a href="">Careers</a></li>
+                </ul>
+            </div>
+            <div class="community">
+                <ul class="item-list">
+                    <li class="item-link"><a href="">COMMUNITY</a></li>
+                    <li class="item-link"><a href="">Diversity & Belonging</a></li>
+                    <li class="item-link"><a href="">Accessibility</a></li>
+                    <li class="item-link"><a href="">Airbnb Associates</a></li>
+                    <li class="item-link"><a href="">Frontline Stays</a></li>
+                    <li class="item-link"><a href="">Invite friends</a></li>
+                    <li class="item-link"><a href="">Airbnb.org</a></li>
+                </ul>
+            </div>
+            <div class="host">
+                <ul class="item-list">
+                    <li class="item-link"><a href="">HOST</a></li>
+                    <li class="item-link"><a href="">Host your home</a></li>
+                    <li class="item-link"><a href="">Host an Online Experience</a></li>
+                    <li class="item-link"><a href="">Host an Experience</a></li>
+                    <li class="item-link"><a href="">Responsible hosting</a></li>
+                    <li class="item-link"><a href="">Resource Centre</a></li>
+                    <li class="item-link"><a href="">Community Centre</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <ul class="item-list">
+                    <li class="item-link"><a href="">SUPPORT</a></li>
+                    <li class="item-link"><a href="">Our COVID-19 Response</a></li>
+                    <li class="item-link"><a href="">Help Centre</a></li>
+                    <li class="item-link"><a href="">Cancellation options</a></li>
+                    <li class="item-link"><a href="">Neighbourhood Support</a></li>
+                    <li class="item-link"><a href="">Trust & Safety</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <ul class="footer-bottom-list">
+                <li class="footer-bottom-item">© 2021 Airbnb, Inc. All rights reserved</li>
+                <li class="footer-bottom-item">
+                    <div class="footer-dot"></div>Privacy
+                </li>
+                <li class="footer-bottom-item">
+                    <div class="footer-dot"></div>Terms
+                </li>
+                <li class="footer-bottom-item">
+                    <div class="footer-dot"></div>UK Modern Slavery Act
+                </li>
+                <li class="footer-bottom-item">
+                    <div class="footer-dot"></div>Company details
+                </li>
+            </ul>
+            <div class="footer-right">
+                <div class="footer-language">
+                    <img src="./icons/globe.svg">
+                    <span><u>English(GB)</u></span>
+                </div>
+                <div class="footer-currency">
+                    <span>£</span>
+                    <span><u>GBP</u></span>
+                </div>
+                <div class="social-media-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
