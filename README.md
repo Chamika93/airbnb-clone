@@ -3,9 +3,9 @@ This website is an attempt to clone the landing page UI of airbnb using html, cs
 
 This is the clone I created
 
-![](airbnb-clone.gif)
+![](airbnb-cone.gif)
 
 and if you compare it with original airbnb.com website it is very similar but I could not recreate the search bar animation. 
 
-![](airbnb.gif)
+![](airbnb.gif)\
 Original airbnb.com website
